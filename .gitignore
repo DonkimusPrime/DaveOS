@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editors
+*.swp
+.vscode/
+.idea/
+
+# Office lock and temp files
+~$*
+*.tmp

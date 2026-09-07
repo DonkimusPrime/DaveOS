@@ -3,7 +3,7 @@
 Edit this file directly. It is an index, not a journal. Detail lives in each workstation's own MEMORY.md.
 
 ## Phase
-- [ ] Phase 1 — Repo installed, guardrails verified, tools connected
+- [x] Phase 1 — Repo installed, guardrails verified, tools connected
 - [ ] Phase 2 — Cowork Academy installed and personalized (in _vendor/)
 - [ ] Phase 3 — Merged into DaveOS
 - [ ] Phase 4 — Operating (scheduled tasks live, close-out habit)

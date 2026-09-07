@@ -18,13 +18,14 @@ If a fact lives in a file, don't restate it in MEMORY.md — link to it.
 ## Folder map
 - `00_Inbox/` — drop zone. Anything ported in lands here first, then gets routed (see `/intake-and-route`).
 - `01_Me/` — identity, principles, goals. Standing context for everything.
-- `10_Personal/` — personal life workstations (Comms, Health-Fitness, Finances, Travel, Admin, AI-Learning).
+- `10_Personal/` — personal life workstations (Comms, Health-Fitness, Finances, Travel, Admin, AI-Learning, IVF).
 - `20_Companies/` — one folder per company. Copy `_TEMPLATE-Company/` to add one.
 - `30_People/` — one file per person, across all companies and personal life. People are cross-cutting, so they live here, not inside a company folder.
 - `.claude/skills/` — repeatable processes. Load the matching skill when a task fits it.
 - `91_Templates/` — starting shapes for recurring documents.
-- `95_Corporate/` — reserved for the org-wide layer (shared rules, org people, org projects). Empty until Phase 3.
+- `95_Corporate/` — reserved for the org-wide layer (shared rules, org people, org projects). Not started until Phase 5; currently holds only its README.
 - `99_Archive/` — closed work. Read-only unless asked.
+- `_vendor/` — pristine third-party installs (e.g. Cowork Academy). Read-only, enforced by the guard hook. Never edit; copy into a workstation instead, and record the move in `MERGE-LOG.md`.
 
 ## Routing rules
 - Belongs to an existing workstation → work there.
@@ -41,7 +42,7 @@ If a fact lives in a file, don't restate it in MEMORY.md — link to it.
 - Commit after every substantive change. Small commits with plain-language messages. Never force-push.
 - Claude Code's own auto-memory is secondary; `MEMORY.md` files are canonical. If they disagree, `MEMORY.md` wins and auto-memory gets corrected.
 - One workstation per task. If a task spans two (e.g. a person who works across two companies), do the work in the one most affected and note the link in the other's `MEMORY.md`.
-- Health data: only read what's in `10_Personal/Health-Fitness/`. Never infer conditions; work only with what the owner has written down.
+- Health data lives in `10_Personal/Health-Fitness/` and `10_Personal/IVF/`. Read only what's in those folders, and only for a task about them. Never infer conditions; work only with what the owner has written down.
 - Prefer building a reusable process (a skill or template) over a one-off answer when the same request will recur.
 - At the end of any session with a decision or correction, run `/close-out` — it turns corrections into rules and commits. That is how the system learns.
 - Keep `MEMORY.md` files under ~40 lines. If one grows past that, move detail into a real file and link it.
