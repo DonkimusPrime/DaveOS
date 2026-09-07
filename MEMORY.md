@@ -16,6 +16,7 @@ Edit this file directly. It is an index, not a journal. Detail lives in each wor
 - Admin → `10_Personal/Admin/MEMORY.md`
 - Finances → `10_Personal/Finances/MEMORY.md`
 - Travel → `10_Personal/Travel/MEMORY.md`
+- IVF → `10_Personal/IVF/MEMORY.md`
 - Companies → one line per company here once created
 
 ## This week's top 3
