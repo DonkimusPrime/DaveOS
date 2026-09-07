@@ -1,15 +1,19 @@
 # <Name>
-- Role / relationship:
-- Company(ies):
-- Reports to / works with:
-- How they like to communicate:
-- What they're responsible for right now:
 
-## Open items / follow-ups
+- Role:
+- Company / org:
+- Reporting line:
+- How they communicate best:
+- What motivates them:
+
+## What I need to actively manage
 -
 
-## Last 1:1s (date — key points — my commitments — theirs)
+## Open action items (mine and theirs)
 -
 
-## Notes for managing this relationship well
+## Recent 1:1s (date — what we covered — my commitments — theirs)
+-
+
+## Context worth keeping
 -
