@@ -1,2 +1,2 @@
 # DaveOS
-This is the Repo to run my entire personal and eventually professional operating system 
+Personal operating system for Claude Code. Start with `ONBOARDING.md`. Rules in `CLAUDE.md`, state in `MEMORY.md`, guardrails in `.claude/`. Private repo — contains personal data.
